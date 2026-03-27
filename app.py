@@ -5,18 +5,7 @@ import plotly.graph_objects as go
 from openai import OpenAI
 import json
 import os
-import streamlit as st
-from openai import OpenAI
 
-client = OpenAI(api_key=st.secrets["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"])
-
-# --- Page Config ---
-st.set_page_config(
-    page_title="InvestIQ - AI Portfolio Manager",
-    page_icon="📈",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 # --- Custom CSS ---
 st.markdown("""
